@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.library.testlibrary.Test2;
 import com.library.testlibrary.TestUtil;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TestUtil.test(this, "MainActivity--->");
+        Test2.test2("test2.....");
     }
 }
