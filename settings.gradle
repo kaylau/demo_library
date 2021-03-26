@@ -1,3 +1,4 @@
+include ':library-utils'
 include ':testLibrary'
 include ':app'
 rootProject.name = "demo_library"
