@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TestUtil.test(this, "MainActivity--->toast");
         Test2.test2("test2.....");
+
     }
 
     public void startAct(View view) {
